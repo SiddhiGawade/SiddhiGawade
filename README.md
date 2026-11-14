@@ -1,61 +1,110 @@
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/title-still.png">
+  <img src="./assets/title.gif" width="100%" alt="Siddhi Gawade, freelance full-stack developer in Mumbai. A pixel-art laptop types her name above the Mumbai skyline.">
+</picture>
+
 <p align="center">
-  <img src="./assets/intro.gif" width="100%" alt="Siddhi Gawade · Freelance full-stack developer" />
-</p>
-<p align="center">
-  <a href="https://www.linkedin.com/in/siddhi-gawade"><img src="./assets/linkedin.svg" height="30" alt="LinkedIn" /></a>
-  <a href="https://github.com/SiddhiGawade"><img src="./assets/github.svg" height="30" alt="GitHub" /></a>
-  <a href="https://www.youtube.com/@siddhigawade25"><img src="./assets/youtube.svg" height="30" alt="YouTube" /></a>
-  <a href="https://www.instagram.com/siddhi_gawade_25/"><img src="./assets/instagram.svg" height="30" alt="Instagram" /></a>
-  <a href="https://leetcode.com/u/SiddhiGawade/"><img src="./assets/leetcode.svg" height="30" alt="LeetCode" /></a>
+  <a href="#project-select">▸ Project select</a> &nbsp; · &nbsp;
+  <a href="#trophy-room">Trophy room</a> &nbsp; · &nbsp;
+  <a href="#bonus-round">Bonus round</a>
 </p>
 
-## Hi, I’m Siddhi 👋
+# Hi, I’m Siddhi 👋
 
-I’m a freelance full-stack developer and a Computer Engineering student at Vidyalankar Institute of Technology in Mumbai. I like projects where a small detail changes how someone uses the product. With **Elegance**, that detail was a question I had to answer in code. What changes when someone rents a pair of earrings they could also buy?
+I’m a **freelance full-stack developer** studying Computer Engineering at Vidyalankar Institute of Technology in Mumbai. I like building the part of an app that makes it useful to someone. Sometimes that’s a rental deposit behind a pair of earrings. Sometimes it’s a voice describing what a camera sees.
 
-I’m also interested in assistive technology and public speaking. I’ve built software that describes a scene aloud, hosted two college podcasts, and led workshops and hackathons with GDG on Campus VIT.
+Away from my laptop, you might catch me hosting a college podcast, running a GDG workshop, or calling plays on the dodgeball court.
 
-## Featured work
+<p>
+  <a href="https://www.linkedin.com/in/siddhi-gawade"><img src="./assets/linkedin.svg" height="30" alt="LinkedIn"></a>
+  <a href="https://github.com/SiddhiGawade"><img src="./assets/github.svg" height="30" alt="GitHub"></a>
+  <a href="https://www.youtube.com/@siddhigawade25"><img src="./assets/youtube.svg" height="30" alt="YouTube"></a>
+  <a href="https://www.instagram.com/siddhi_gawade_25/"><img src="./assets/instagram.svg" height="30" alt="Instagram"></a>
+  <a href="https://leetcode.com/u/SiddhiGawade/"><img src="./assets/leetcode.svg" height="30" alt="LeetCode"></a>
+</p>
 
-### TTB Experiences · Travel website
+## Project select
 
-**I was the sole developer of TTB Experiences’ customer-facing travel website.** As the Web & Digital Executive Intern, I built the responsive pages and GSAP animations with Astro, TypeScript, JavaScript, and Supabase.
+Pick a cartridge to open the live project.
 
-A good place to start is the Japan itinerary. You can follow the trip from Tokyo to Osaka, explore it day by day, and use **Plan a trip** to enquire about a journey of your own.
+<p>
+  <a href="https://ttbexperiences.com/"><img src="./assets/ttb.png" width="48%" alt="Open TTB Experiences, my solo travel website build"></a>
+  <a href="https://elegance-mu-amber.vercel.app/"><img src="./assets/elegance.png" width="48%" alt="Open Elegance, my earring shop and rental platform"></a>
+</p>
 
-[Visit TTB Experiences ↗](https://ttbexperiences.com/) · [Explore the Japan itinerary ↗](https://ttbexperiences.com/japan-itinerary.html)
+### TTB Experiences · Solo developer
 
-### Elegance · Earring shop and rental platform
+**I was the sole developer of TTB Experiences’ customer-facing travel website.** As their Web & Digital Executive Intern, I built the responsive itinerary pages and their GSAP animations. Try the Japan itinerary to see how the pages work together. A visitor can go from an overview of the route to a day-by-day plan from Tokyo to Osaka, then enquire about a trip of their own.
 
-I built Elegance so customers could buy earrings outright or rent them with a refundable security deposit. Behind the storefront, I designed the MongoDB models for products, users, and orders, and wrote the REST APIs that manage inventory and purchases.
+`Astro` `TypeScript` `JavaScript` `GSAP` `Supabase`  
+[Visit the website ↗](https://ttbexperiences.com/) · [Walk through the Japan itinerary ↗](https://ttbexperiences.com/japan-itinerary.html)
 
-**Built with** Next.js, Tailwind CSS, Node.js, Express, MongoDB, and Mongoose. [Explore Elegance ↗](https://elegance-mu-amber.vercel.app/)
+### Elegance · Shop or rent earrings
 
-### More projects
+One pair of earrings, two checkout paths. A customer can purchase it or rent it with a refundable security deposit. I built the storefront, modeled products, users, and orders in MongoDB, and wrote the REST APIs that connect the shop to its inventory.
 
-| Project | What I built |
+`Next.js` `Node.js` `Express` `MongoDB` `Mongoose` `Tailwind CSS`  
+[Explore Elegance ↗](https://elegance-mu-amber.vercel.app/)
+
+<details>
+<summary><b>▸ More projects in my collection</b> · LabRooms, Virtual Eye, Eventure &amp; SaleSmart-AI</summary>
+
+| Project | What you’ll find |
 | --- | --- |
-| **[LabRooms ↗](https://labrooms.vercel.app/)** | A shared room where people can chat, sketch on one whiteboard, and exchange files. I used WebSockets to keep participants in sync and room codes to control entry. |
-| **[Virtual Eye ↗](https://github.com/SiddhiGawade/VirtualEye-Ecosystem)** | An assistive vision system for people with visual impairments. YOLOv8 detects objects, BLIP describes the scene, and text-to-speech reads the description aloud. |
-| **[Eventure ↗](https://github.com/SiddhiGawade/Eventure)** | A platform for hosting events and hackathons, a space I also know from organizing them on campus. |
+| [LabRooms ↗](https://labrooms.vercel.app/) | A room code brings people into a shared workspace with live chat, a whiteboard, and file sharing. I used WebSockets to keep participants in sync. |
+| [Virtual Eye ↗](https://github.com/SiddhiGawade/VirtualEye-Ecosystem) | An assistive vision system that detects nearby objects and narrates a camera scene for someone with a visual impairment. |
+| [Eventure ↗](https://github.com/SiddhiGawade/Eventure) | A platform for hosting events and hackathons, something I’ve also done on campus. |
+| [SaleSmart-AI ↗](https://github.com/SiddhiGawade/SaleSmart-AI) | Browse the project on GitHub. |
 
-[SaleSmart-AI repository ↗](https://github.com/SiddhiGawade/SaleSmart-AI) · [Browse all repositories ↗](https://github.com/SiddhiGawade?tab=repositories)
+</details>
 
-## What I work with
+## Trophy room
 
-| Area | Technologies I’ve used |
+<p>
+  <img src="./assets/cap.png" width="32%" alt="10 CGPA in B.Tech Computer Engineering">
+  <img src="./assets/trophy.png" width="32%" alt="Top 60, Quasar National Hackathon finalist">
+  <img src="./assets/medal.png" width="32%" alt="6th place, Synaphack 3.0">
+</p>
+
+I topped my class in **Semester 5** at Vidyalankar, after earning **95.03%** in my Computer Engineering diploma at Bharati Vidyapeeth. At Quasar, I reached the **top 60 out of 650+**. I also placed **6th at Synaphack 3.0** and took first prize at a software project competition.
+
+## Developer inventory
+
+| What I’m working on | Tools I reach for |
 | --- | --- |
-| Interfaces & motion | React, Next.js, Astro, TypeScript, JavaScript, Tailwind CSS, GSAP |
-| APIs & data | Node.js, Express, WebSockets, MongoDB, PostgreSQL, MySQL, Supabase |
-| AI & computer vision | Python, PyTorch, OpenCV, YOLOv8, BLIP, TinyML |
+| Interfaces and motion | React, Next.js, Astro, TypeScript, GSAP, Tailwind CSS |
+| APIs and real-time systems | Node.js, Express, WebSockets, MongoDB, PostgreSQL, MySQL, Supabase |
+| Assistive computing | Python, OpenCV, YOLOv8, BLIP, PyTorch, TinyML |
 
-At **VJTI Mumbai**, I deployed vision models on an NVIDIA Jetson Nano and worked on real-time voice enhancement for a TinyML hearing aid. At **Digital Techists Consulting**, I built responsive interfaces with React and Tailwind CSS.
+At **VJTI Mumbai**, I deployed vision models on an NVIDIA Jetson Nano and worked on real-time voice enhancement for a TinyML hearing aid. At **Digital Techists Consulting**, I built responsive interfaces using React and Tailwind CSS.
 
-## Education & achievements
+## Bonus round
 
-- **B.Tech in Computer Engineering** · Vidyalankar Institute of Technology, Wadala · **10 CGPA**. I topped my class in Semester 5.
-- **Diploma in Computer Engineering** · Bharati Vidyapeeth Institute of Technology, Kharghar · **95.03%**.
-- **Hackathons** · National finalist at Quasar (top 60 out of 650+) and 6th place at Synaphack 3.0.
-- **Public speaking** · First prize in state-level paper presentation and elocution. I’ve also hosted the Flutter Road Show and Shape The Web.
+**Inside Virtual Eye, which component turns a camera frame into a sentence describing the scene?** Pick an answer to reveal what it does.
 
-Away from the keyboard, I’ve captained the girls’ dodgeball team for intra-college tournaments. If you’d like to talk about a freelance build, an accessibility idea, or a hackathon, [say hello on LinkedIn ↗](https://www.linkedin.com/in/siddhi-gawade).
+<details>
+<summary>▸ YOLOv8</summary>
+
+YOLOv8 detects individual objects. It can tell the system that a chair is in the frame. Another component produces the scene description. Try again.
+
+</details>
+
+<details>
+<summary>▸ BLIP</summary>
+
+**You found it.** BLIP generates a caption from the image. That caption gives the speech component a sentence to read aloud. [Explore Virtual Eye ↗](https://github.com/SiddhiGawade/VirtualEye-Ecosystem)
+
+</details>
+
+<details>
+<summary>▸ Text-to-speech</summary>
+
+This is the last step. Text-to-speech takes the caption that already exists and reads it aloud. Try the component that works with both images and language.
+
+</details>
+
+## Beyond the screen
+
+I’ve hosted **two college podcasts**, led technical events for **GDG on Campus VIT**, and hosted **Flutter Road Show** and **Shape The Web**. Speaking on stage earned me first prize in state-level paper presentation and elocution. On the court, I captained the girls’ dodgeball team for intra-college tournaments.
+
+If you’ve got a freelance project in mind, or you want to talk about accessible interfaces or hackathons, [say hello on LinkedIn ↗](https://www.linkedin.com/in/siddhi-gawade).
